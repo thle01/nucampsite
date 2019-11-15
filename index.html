@@ -7,60 +7,98 @@
         
         <!-- boostrap css-->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css" />
-        <title> Nucamp: a better way to camp </title>
+        
 
+        <!-- addition css styles-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <title> Nucamp: a better way to camp </title>
     </head>
 
     <body>
-        <header>
-            <div>
-                <h1> Nucamp </h1>
-                <h2> a better way to camp</h2>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row row-content">
+                    <div class="col">
+                        <h1> Nucamp </h1>
+                        <h2> A better way to camp</h2>
+                    </div>
+                </div>                 
             </div>
         </header>
 
-        <div>
-            <h2> Discover and Review</h2>
-            <h3> Our campsites</h3>
-            <p> Explore our growing database of curated campsites and leave your reviews</p>
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2 class="text-sm-right">  Discover and Review</h2>
+                </div>   
+                <div class="col">
+                    <h3> Our campsites</h3>
+                    <p> Explore our growing database of curated campsites and leave your reviews</p>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <h2> Our comunnity partners</h2>
-            <h3>Bootstrap outfitters</h3>
-            <p> bootstrap outfitters supplies you with gear you need at prices you cannot beat</p> 
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 col-md-3">
+                    <h2>Featured Campsites</h2>
+                </div>
+            <div class="col">
+                <h3>React Lake Campground</h3>
+                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2 class="text-sm-right"> Our comunnity partners</h2>
+                </div>
+            <div class="col">
+                <h3>Bootstrap outfitters</h3>
+                <p> bootstrap outfitters supplies you with gear you need at prices you cannot beat</p> 
+            </div>
         </div>
 
         <footer>
-            <div>
-                <h5> Links</h5>
-                <ul>
-                    <li> <a href="#"> Home </a></li>
-                    <li> <a href="#"> About </a></li>
-                    <li> <a href="#"> Sites </a></li>
-                    <li> <a href="#"> Contact </a></li>
-                </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5> Links</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="#"> Home </a></li>
+                            <li> <a href="#"> About </a></li>
+                            <li> <a href="#"> Sites </a></li>
+                            <li> <a href="#"> Contact </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5> Social</h5>
+                        <ul class="list-unstyled"></ul>
+                            <li> <a href="http://Instagram.com/"> Instagram </a></li>
+                            <li> <a href="http://Facebook.com/"> Facebook </a></li>
+                            <li> <a href="http://Twitter.com/"> Twitter </a></li>
+                            <li> <a href="http://Youtube.com/"> Youtube </a></li> 
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        Tel: 1-123-456-7896 <br />
+                        Email: campsite@nucamp.com
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <h5> Social</h5>
-                <li> <a href="http://Instagram.com/"> Instagram </a></li>
-                <li> <a href="http://Facebook.com/"> Facebook </a></li>
-                <li> <a href="http://Twitter.com/"> Twitter </a></li>
-                <li> <a href="http://Youtube.com/"> Youtube </a></li> 
-
-            </div>
-
-            <div>
-                Tel: 1-123-456-7896 <br />
-                Email: campsite@nucamp.com
-            </div>
-
         </footer>
         <!-- jquery, popper.js boostrap javascript plugins-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"> </script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
+
+
 
 </html>
