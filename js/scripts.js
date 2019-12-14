@@ -16,7 +16,6 @@ $(function() {
 $(function(){
     $("#loginButton").click(function() {
         $("#loginModal").modal("show");
-        console.log("test");
     });
 })
 
